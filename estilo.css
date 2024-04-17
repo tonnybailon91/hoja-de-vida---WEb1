@@ -1,0 +1,140 @@
+/*Modificar el cuerpo de la página Web*/
+*{
+    box-sizing: border-box;
+}
+body{
+    background: rgb(20, 189, 211);
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+/*Modificar los contenedores de la página Web*/
+.contenedor{
+    width: 90%;
+    background: white;
+    margin: 10px;
+    box-shadow: 0 0 20px rgb(136, 233, 157);
+    display: grid;
+}
+
+/*Modificacion de estilos de la tabla estudios y sus respectivas columnas*/
+.tabla_titulo_Estudios{
+    grid-column: 1;
+    background: rgb(16, 233, 161);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-weight: bold;
+    font-size: 28px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+/* Modificar con estilos las tablas y columnas*/
+.tabla_titulo{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background: rgb(16, 233, 161);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-weight: bold;
+    font-size: 28px;
+    font-family: 'Times New Roman', Times, serif;
+}
+/*Para modificar la imagen de perfil*/
+img{
+    
+    height: 200px;
+    margin-top: 5px;
+    margin-left: 66.8%;
+    width: 210px;
+    border-radius: 10%;
+}
+/*Titulo de la página principal*/
+h1{
+    text-align: center;
+    margin-top: 1%;
+    margin-right: 12% ;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 500%;
+    margin-bottom: -7%;
+
+}
+
+/*Datos de las tablas de Referencias laborales, capacitaciones y datos personales*/
+.tabla_subtitulos, .tabla_datos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+}
+
+.tabla_datos{
+    padding: 5px;
+    font-size: 1.2em;
+}
+
+.tabla_subtitulos{
+    font-weight: bold;
+    color: rgb(78, 69, 69);
+    font-size: 1.5em;
+}
+
+/*Datos de la tabla de Estudios Realizados*/
+.tabla_subtitulos_Estudios, .tabla_datos_Estudios{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif; 
+}
+
+.tabla_subtitulos_Estudios{
+    font-weight: bold;
+    color: rgb(78, 69, 69);
+    font-size: 1.5em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.tabla_datos_Estudios{
+    padding: 5px;
+    font-size: 1.2em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*Datos de la Tabla Referencias */
+.tabla_subtitulosR, .tabla_datosR{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30%;
+    
+}
+
+.tabla_subtitulosR{
+    font-weight: bold;
+    color:rgb(78, 69, 69);
+    font-size: 1.5em;
+}
+
+.tabla_datosR{
+    padding: 5px;
+    font-size: 1.2em;
+    font-family: 'Times New Roman', Times, serif;
+}
+.tabla_REFERENCIA{
+    font-weight: bold;
+    color: rgb(78, 69, 69);
+    padding: 15px;
+    font-size: 1.5em;
+    font-family: 'Times New Roman', Times, serif;
+
+    /*Pie de página Web Hoja de Vida */ 
+}
+footer{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100%;  
+}
